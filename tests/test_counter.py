@@ -1,15 +1,15 @@
 from lib.counter import *
 
-def testing_counter_adds():
+def test_counter_adds():
     counter = Counter()
     result = counter.add(10)
     assert "Counted to 10 so far."
     
-def testing_counter_starts_at_0():
+def test_counter_starts_at_0():
     counter = Counter()
     assert counter.count == 0
 
-def testing_counter_counts_multiple():
+def test_counter_counts_multiple():
     counter = Counter()
     result = counter.add(10)
     result = counter.add(5)
