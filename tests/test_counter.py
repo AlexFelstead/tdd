@@ -14,3 +14,7 @@ def test_counter_counts_multiple():
     result = counter.add(10)
     result = counter.add(5)
     assert "Counted to 15 so far."
+
+def test_no_input():
+    counter = Counter()
+    assert counter.report() == "Counted to 0 so far."
