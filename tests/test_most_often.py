@@ -19,9 +19,3 @@ def test_for_a_tie():
 def test_for_an_empty_list():
     most_often = MostOften([])
     assert most_often.starting_list == []
-
-
-
-# def test_list_is_empty():
-#     x = Gratitudes()
-#     assert x.gratitudes == []
